@@ -1,7 +1,7 @@
 variable "bucket" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "master-terraform-backend-bucket"
+  default     = "class31-terraform-backend-bucket"
 }
 
 variable "table" {
@@ -15,6 +15,7 @@ variable "region" {
   type        = string
   default     = "us-east-2"
 }
+
 
 
 
